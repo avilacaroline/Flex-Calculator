@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flex Calculator</title>
+
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Flex Calculator</h1>
+    <div class="main-body">
+        <div class="img">
+            <img src="Assets/neutro.png" alt="" id="status">
+        </div>
+
+        <div class="form">
+            <form name="frmFlex">
+                <input type="text" placeholder="Ethanol" size="8" name="txtEthanol">
+                <input type="text" placeholder="Gasoline" size="8" name="txtGasoline">
+                <input type="button" value="Advantage" onclick="calc()">
+                <input type="reset" value="Reset" onclick="resetar()">
+            </form>
+        </div>
+    </div>
+
+    <script src="flexcalc.js"></script> 
+    <footer><p>&copy; Caroline Ávila</p></footer> 
+    
+</body>
+</html>
